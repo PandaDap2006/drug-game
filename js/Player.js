@@ -103,10 +103,11 @@ function updatePlayer() {
     player.style.top = z + "px";
     player.style.backgroundSize = "100%"
     player.style.backgroundColor = "transparent"
+    changePlayerTexture();
 }
 
 setInterval(function() {
-    changePlayerTexture();
+    //changePlayerTexture();
 }, 100)
 
 function changePlayerTexture() {

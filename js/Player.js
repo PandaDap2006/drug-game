@@ -127,5 +127,5 @@ function changePlayerTexture() {
         AnimationFrame = "idle.png";
     }
 
-    player.style.backgroundImage = "url('textures/player_" + Direction + "_" + AnimationFrame + "')"
+    player.style.backgroundImage = "url('**root**/textures/player_" + Direction + "_" + AnimationFrame + "')"
 }

@@ -127,5 +127,5 @@ function changePlayerTexture() {
         AnimationFrame = "idle.png";
     }
 
-    player.style.backgroundImage = "url('https://github.com/PandaDap2006/drug-game/blob/main/textures/player_" + Direction + "_" + AnimationFrame + "')"
+    player.style.backgroundImage = "url('https://github.com/PandaDap2006/drug-game/blob/main/textures/player_" + Direction + "_" + AnimationFrame + "?raw=true')"
 }

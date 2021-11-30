@@ -42,7 +42,7 @@ setInterval(function() {
     else if (Region(-1000, 2000, 575, 1000)) {
         x = oldX;
         z = oldZ;
-    }else if (Region(-1000, 2000, -1000, 200)) {
+    }else if (Region(20, 375, -1000, 100)) {
         x = oldX;
         z = oldZ;
     }

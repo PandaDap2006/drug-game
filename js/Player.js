@@ -81,9 +81,11 @@ document.addEventListener('keypress', function(event) {
         LEFT = true;
     }
 
-    /*if (event.key == "e") {
-        if (Region())
-    }*/
+    if (event.key == "e") {
+        if (Region(100, 200, 100, 200)) {
+            $('body').load( "drugShop.html");
+        }
+    }
 });
 
 document.addEventListener('keyup', function(event) {

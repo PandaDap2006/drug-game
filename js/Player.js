@@ -108,6 +108,8 @@ function updatePlayer() {
     player.style.top = z + "px";
     player.style.backgroundSize = "100%"
     player.style.backgroundColor = "transparent"
+
+    console.log("X:" + x + ", Z:" + z)
 }
 
 setInterval(function() {
